@@ -59,4 +59,3 @@ So, in this document you will understand about:
 ### JSON Encoding
 - JSON stands for JavaScript Object Notation
 - REST API uses for JSON messages for communication
-
