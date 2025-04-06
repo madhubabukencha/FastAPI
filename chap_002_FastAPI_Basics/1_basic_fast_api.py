@@ -9,7 +9,7 @@ app = FastAPI()
 
 @app.get("/health")
 def health():
-    # FastAPI automatically converts it into the
+    # FastAPI automatically converts it into the JSON object
     return {"errors": None}
 
 
