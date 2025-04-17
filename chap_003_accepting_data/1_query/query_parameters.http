@@ -1,0 +1,13 @@
+### To use this you need to install "REST Client" plug-in
+
+http://127.0.0.1:8000/logs?start=2010-04-01&end=2025-04-07
+
+### End after start
+http://127.0.0.1:8000/logs?end=2010-04-01&start=2025-04-07
+
+
+### Unprocessable Content
+http://127.0.0.1:8000/logs?start=2025-07-0&end=2025-08-07
+
+### No data found
+http://127.0.0.1:8000/logs?start=2025-07-01&end=2025-08-07

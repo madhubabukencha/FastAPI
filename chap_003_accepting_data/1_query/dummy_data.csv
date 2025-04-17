@@ -1,0 +1,51 @@
+id,date,product_name,category,price,quantity,in_stock,rating
+1,1900-04-01,Steam Engine,Industrial,1250.00,2,False,4.2
+2,1912-06-15,Model T,Automotive,850.00,5,True,4.5
+3,1925-03-10,Crystal Radio,Electronics,15.99,12,True,3.8
+4,1938-07-22,Alarm Clock,Home,3.50,45,True,4.0
+5,1945-11-30,Victory Garden Kit,Gardening,7.25,32,False,3.5
+6,1952-09-05,Hula Hoop,Toys,1.98,120,True,4.7
+7,1960-04-12,LP Record,Music,12.99,28,True,4.3
+8,1969-07-20,Moon Landing Poster,Decor,5.95,56,True,4.8
+9,1975-10-31,PET Computer,Electronics,795.00,8,False,3.9
+10,1982-01-15,Rubik's Cube,Toys,9.99,90,True,4.6
+11,1991-12-25,Game Console,Electronics,199.99,15,True,4.4
+12,1999-08-30,Y2K Survival Kit,Novelty,29.95,42,False,2.5
+13,2005-06-10,Smartphone,Electronics,599.00,23,True,4.1
+14,2010-04-03,E-Reader,Electronics,129.99,18,True,4.0
+15,2012-12-21,Doomsday Calendar,Novelty,12.99,7,False,1.5
+16,2015-07-20,Smart Watch,Electronics,349.99,11,True,4.2
+17,2016-11-08,Fidget Spinner,Toys,7.49,210,True,3.7
+18,2017-09-01,Instant Pot,Kitchen,99.95,34,True,4.5
+19,2018-03-15,Air Fryer,Kitchen,89.99,27,True,4.3
+20,2019-05-30,Wireless Earbuds,Electronics,159.99,19,True,4.0
+21,2020-04-01,Face Mask,Health,2.99,500,True,3.0
+22,2020-07-15,Home Gym,Fitness,299.99,8,False,4.1
+23,2021-01-20,Graphic Card,Electronics,699.00,3,False,4.6
+24,2021-09-14,Reusable Water Bottle,Home,24.95,65,True,4.4
+25,2022-02-28,VR Headset,Electronics,499.00,12,True,4.2
+26,2022-11-15,LED Strip Lights,Home,19.99,48,True,4.0
+27,2023-03-10,AI Assistant,Electronics,129.00,22,True,3.9
+28,2023-08-05,Portable Blender,Kitchen,39.99,31,True,4.1
+29,2024-01-12,Robot Vacuum,Home,349.00,9,True,4.3
+30,2024-06-20,3D Printer,Tools,299.99,6,True,4.4
+31,1923-08-13,Toaster,Kitchen,12.50,38,True,3.8
+32,1942-05-08,Victory Bond,Financial,25.00,120,True,5.0
+33,1955-12-01,Hula Hoop Deluxe,Toys,2.49,85,True,4.5
+34,1967-06-21,Flower Power Poster,Decor,3.25,42,True,4.2
+35,1979-11-02,Walkman,Electronics,79.99,25,True,4.3
+36,1987-10-19,CD Player,Electronics,149.99,18,True,4.0
+37,1994-07-30,Tamagotchi,Toys,14.99,63,True,4.6
+38,2001-09-11,American Flag,Decor,9.99,94,True,4.8
+39,2007-06-29,iPhone,Electronics,499.00,14,True,4.5
+40,2013-09-21,Selfie Stick,Accessories,19.99,57,True,3.5
+41,2018-12-25,Smart Bulb,Home,29.99,43,True,4.1
+42,2019-07-04,Portable Grill,Outdoor,89.95,21,True,4.2
+43,2020-11-26,Cycling Machine,Fitness,199.99,7,True,4.0
+44,2021-04-22,Eco-Friendly Notebook,Office,12.99,36,True,4.3
+45,2022-05-15,Ergonomic Chair,Office,249.99,5,True,4.4
+46,2023-01-30,Noise Cancelling Headphones,Electronics,179.99,11,True,4.5
+47,2023-12-15,Retro Gaming Console,Electronics,79.99,24,True,4.2
+48,2024-09-05,Foldable Drone,Electronics,399.00,8,True,4.3
+49,2025-01-01,AI Art Generator,Software,149.00,13,True,4.1
+50,2025-04-07,Quantum Computer Prototype,Electronics,9999.99,1,True,5.0
