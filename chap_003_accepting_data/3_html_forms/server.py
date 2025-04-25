@@ -27,6 +27,10 @@ the request body, specifically encoded as application/x-www-form-urlencoded data
 from an HTML form submission). FastAPI will then parse this data from the request body and
 make it available as arguments to the survey function.
 
+TO RUN:
+---
+fastapi dev server.py
+
 To access results
 -----------------
 http://127.0.0.1:8000/static/survey.html
