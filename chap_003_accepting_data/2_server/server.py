@@ -9,7 +9,9 @@ app = FastAPI()
 
 
 class Student(BaseModel):
-    """Student Object"""
+    """
+    Student data model
+    """
     joining_data: datetime
     name: str = Field(min_length=4)
     age: int = Field(gt=1, le=120)
