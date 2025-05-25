@@ -23,8 +23,10 @@ class FreqError(Exception):
 async def freq_error_handler(request, exc):
     return JSONResponse(
         status_code=HTTPStatus.BAD_REQUEST,
-        content={"message": str(exc)},  # This need to be handled carefully in prod
-        headers={"X-Error": request.query_params.get("text")},  # Usually custom headers start with X-
+        # This need to be handled carefully in prod
+        content={"message": str(exc)},
+        # Usually custom headers start with X-
+        headers={"X-Error": request.query_params.get("text")},
     )
 
 
