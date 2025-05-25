@@ -1,0 +1,5 @@
+### Good Request
+GET http://localhost:8000/char_freq?text=Madhubabukencha
+
+### Bad Request
+GET http://localhost:8000/char_freq?text=
