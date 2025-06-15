@@ -3,3 +3,4 @@ fastapi[standard]
 pandas==2.2.3
 pydantic==2.11.3
 pillow==11.2.1
+dynaconf==3.2.11

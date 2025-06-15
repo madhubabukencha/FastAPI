@@ -1,0 +1,7 @@
+## Request to Root Endpoint
+GET http://localhost:8000/
+
+
+## Request to Item Endpoint
+GET http://localhost:8000/items/1
+Authorization: MY_SECRET_TOKEN

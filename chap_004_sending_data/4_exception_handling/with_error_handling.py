@@ -30,6 +30,7 @@ async def freq_error_handler(request, exc):
     )
 
 
+
 def char_freq(text: str) -> dict:
     print("Length of text:", len(text))
     if not text:

@@ -1,14 +1,17 @@
 """
 Serialization:
-Serialization is the process of converting an object into a format that can be easily stored or transmitted and then reconstructed later.
-In FastAPI, serialization is the process of converting Python objects into JSON format for sending as a response to the client.
+Serialization is the process of converting an object into a format that
+can be easily stored or transmitted and then reconstructed later. In FastAPI,
+serialization is the process of converting Python objects into JSON format
+for sending as a response to the client.
 
-Pydantic V2 serializes dates into ISO 8601 format by default. example: P120DT1H, P120D, P1Y2M3DT4H5M6S.
-We have to use the field_serializer decorator to serialize the timedelta object into a string format.
+Pydantic V2 serializes dates into ISO 8601 format by default. example:
+P120DT1H, P120D, P1Y2M3DT4H5M6S. We have to use the field_serializer
+decorator to serialize the timedelta object into a string format.
 """
 from datetime import datetime, timedelta
 from fastapi import FastAPI
-from pydantic import BaseModel, field_serializer    
+from pydantic import BaseModel, field_serializer
 
 
 app = FastAPI()
