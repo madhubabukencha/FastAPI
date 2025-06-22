@@ -1,0 +1,12 @@
+### Create User (as query parameters)
+POST http://127.0.0.1:8000/users/?name=John%20Doe&email=john.doe@example.com
+Content-Type: application/json
+
+
+### Second user
+POST http://127.0.0.1:8000/users/?name=Madhu%20Doe&email=madhu@example.com
+Content-Type: application/json
+
+
+### Get User
+GET http://127.0.0.1:8000/users/1
